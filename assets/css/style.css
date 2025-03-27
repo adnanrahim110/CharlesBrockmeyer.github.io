@@ -498,7 +498,7 @@ i {
    Navigation
 ------------------------------- */
 .ebook-logo {
-   max-width: 150px;
+   max-width: 200px;
 }
 
 nav {
@@ -533,12 +533,14 @@ nav .container {
 
 .shrink-nav {
    background-color: #000;
+   padding-block: 5px;
 }
 
 .fixed-nav {
    position: fixed;
    display: inline-table;
    top: 0px;
+   padding-block: 10px;
 }
 
 .fixed-nav .logo-dark {

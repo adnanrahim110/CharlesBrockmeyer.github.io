@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     // Preloader
     $('.preloader img').fadeOut(); // will first fade out
-    $('.preloader').delay(320).fadeOut('slow', function () {});
+    $('.preloader').delay(320).fadeOut('slow', function () { });
 
     /* ---------------------------------------------------------------------- */
     // Pre Loader - Start
@@ -257,3 +257,7 @@ $(document).ready(function () {
 /* ---------------------------------------------------------------------- */
 // Contact Form - End
 /* ---------------------------------------------------------------------- */
+
+const year = document.getElementById("year");
+
+year.innerText = new Date().getFullYear();
