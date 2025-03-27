@@ -130,6 +130,7 @@
 
     .navbar .navbar-collapse {
         background: rgba(27, 22, 28, 0.90);
+        margin-top: 20px;
     }
 
     .navbar .navbar-toggler {
@@ -358,6 +359,10 @@
         font-size: 22px;
     }
 
+    .text-hero p {
+        color: #232323;
+    }
+
     /*  footer */
     .footer-icons {
         margin-top: 20px;
@@ -403,8 +408,7 @@
 screen and (max-height: 480px) {
 
     /* navigation */
-    .navbar-fixed-top .navbar-collapse
-        {
+    .navbar-fixed-top .navbar-collapse {
         max-height: 275px !important;
     }
 }
