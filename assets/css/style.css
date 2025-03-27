@@ -541,6 +541,10 @@ nav .container {
    top: 0px;
 }
 
+.fixed-nav .logo-dark {
+   display: none;
+}
+
 .fixed-nav .logo-bright {
    vertical-align: middle;
    display: table-cell;
@@ -550,6 +554,10 @@ nav .container {
 .shrink-nav .logo-bright {
    opacity: 0;
    display: none
+}
+
+.shrink-nav .logo-dark {
+   display: inline-block;
 }
 
 .navbar-nav li a.active {
